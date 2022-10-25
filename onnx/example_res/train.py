@@ -7,7 +7,7 @@ import json
 import matplotlib.pyplot as plt
 import os
 import torch.optim as optim
-from model import resnet34, resnet101
+from torchvision.models import resnet34, resnet101
 import torchvision.models.resnet
 
 

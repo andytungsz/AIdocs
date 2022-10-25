@@ -1,9 +1,11 @@
 #predict.py
 
 import torch
-from model import resnet34
+from torchvision.models import resnet34
 from PIL import Image
 from torchvision import transforms
+import matplotlib 
+matplotlib.use('TKAgg')
 import matplotlib.pyplot as plt
 import json
 
