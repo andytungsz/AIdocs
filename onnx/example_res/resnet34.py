@@ -4,7 +4,7 @@ import torch
 class BasicBlock(nn.Module):
     expansion = 1
     
-    def __init__(self, in_channel, out_channel,downsample=None):
+    def __init__(self, in_channel,stride, out_channel,downsample=None):
         super(BasicBlock, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=in_channel, out_channels=out_channel,
                                 kernel_size=2, stride=stride, padding=1, bias=False)
