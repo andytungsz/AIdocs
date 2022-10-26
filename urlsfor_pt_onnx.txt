@@ -4,3 +4,9 @@ https://pytorch.zhangxiann.com/
 https://cloud.tencent.com/developer/article/1429526?from=article.detail.1442507
 https://jhui.github.io/2018/02/09/PyTorch-Basic-operations/
 https://dev-discuss.pytorch.org/t/where-do-the-2000-pytorch-operators-come-from-more-than-you-wanted-to-know/373/7
+
+
+
+yolo:
+https://zhuanlan.zhihu.com/p/161439809      吊打一切的YOLOv4的tricks汇总
+https://blog.csdn.net/qq_41736617/article/details/118496945    yolov4 添加空间注意力机制SAM，周博的模型
